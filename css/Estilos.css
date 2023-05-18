@@ -1,0 +1,211 @@
+body {
+    background-image: url("../img/fondo.png");
+}
+.topnav {
+    width: 550px;
+    padding: 15px 30px 15px 30px;
+    margin: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 10px 10px 0 0;
+    background-color: blanchedalmond;
+}
+
+.topnav a {
+    background-color: darkred;
+    color: blanchedalmond;
+    border-radius: 6px;
+    padding: 15px 30px 15px 30px;
+}
+
+.activo {
+    opacity: 0.7;
+}
+.pasivo:hover {
+    opacity: 0.7;
+}
+
+#cuerpo {
+    background-color: blanchedalmond;
+    margin-top: -20px;
+    padding: 15px;
+    width: 66%;
+    min-width: 605px;
+    border-radius: 10px;
+}
+
+#cuerpo-inicio {
+    background-color: floralwhite;
+    border-radius: 10px;
+    font-family: 'Arial';
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cuerpo-inicio h1 {
+    margin: 5px 0 5px 15px;
+}
+
+.bloque100{
+    width: 98%;
+}
+
+.text60{
+    width: 63%;
+    float: left;
+    margin: 5px;
+}
+.img40 {
+    width: 35%;
+    float: left;
+    margin-top: 20px;
+}
+
+.img40 img{
+    width: 100%;
+}
+
+.btnLogin {
+    background-color: darkred;
+    color: blanchedalmond;
+    border-radius: 6px;
+    padding: 15px 30px 15px 30px;
+}
+.btnLogin:hover {
+    opacity: 0.7;
+}
+
+.formLogin form{
+    background-color: blanchedalmond;
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+}
+.formLogin form div{
+    background-color: floralwhite;
+}
+.formLogin form a{
+    background-color: floralwhite;
+    border-color: brown;
+    color: brown;
+    border: solid;
+    margin: 0 0 0 270px;
+}
+.formLogin{
+
+    background-color: rgba(0, 0, 0, .8);
+    position:fixed;
+    top:0;
+    right:0;
+
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+}
+#formLogin:target{
+    opacity:1;
+    pointer-events:auto;
+}
+
+#cuerpo-elaboracion {
+    background-color: floralwhite;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    flex-wrap: wrap;
+}
+
+#cuerpo-elaboracion h1 {
+    margin: 5px 5px 10px 15px;
+    width: 90%;
+}
+
+.proceso {
+    width: 30%;
+    margin: 5px;
+}
+
+.proceso img{
+    width: 100px;
+    height: 100px;
+}
+
+#cuerpo-productos {
+    background-color: floralwhite;
+    border-radius: 10px;
+    font-family: 'Monaco', "Courier New", monospace;
+    flex-wrap: wrap;
+}
+
+#cuerpo-productos h1 {
+    margin: 5px 5px 10px 15px;
+    width: 90%;
+}
+
+#cuerpo-productos div {
+    width: 46%;
+    margin: 2%;
+    float: left;
+}
+
+#cuerpo-contacto {
+    background-color: floralwhite;
+    border-radius: 10px;
+    font-family: 'Arial';
+}
+
+#cuerpo-contacto h1 {
+    text-align: center;
+    padding: 20px 0 5px 0;
+}
+
+.informacion {
+    margin: 10px;
+    width: 50%;
+    float: left;
+}
+#cuerpo-contacto form div {
+    width: 50%;
+    float: left;
+    padding: 8px;
+    text-align: center;
+}
+
+#cuerpo-contacto form div div{
+
+    margin: 2px 8px 2px 8px;
+    float: left;
+    width: 40%;
+}
+
+.btnEnviar {
+    text-align: center;
+    color: brown;
+    background-color: blanchedalmond;
+    border-color: brown;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btnEnviar:hover {
+    background-color:floralwhite;
+}
+
+img {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#footer{
+    width: 64%;
+    background-color: blanchedalmond;
+    margin: -15px 0px 5px 10px;
+    min-width: 585px;
+    padding: 3px 20px 0px 5px;
+    border-radius: 0 0 10px 10px
+}
+h6 {
+    text-align: right;
+}

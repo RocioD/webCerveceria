@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cervecería Pastenne</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/Estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class='topnav'>
+            <a class="activo" id="inicio">Inicio</a>
+            <a class="pasivo" id="elaboracion">Elaboración</a>
+            <a class="pasivo" id="productos">Productos</a>
+            <a class="pasivo" id="contacto">Contacto</a>
+        </div>
+
+        <div id="cuerpo">
+
+            <div id="cuerpo-inicio">
+                <h1>Inicio</h1>
+                <div class="bloque100">
+                    <div class="text60">
+                        <h3>Historia</h3>
+                        <p>
+                            Iniciada por la familia Pastenne, desde las zonas agrícolas de la VI región, se produce cerveza artesanal 
+                            de calidad por la experiencia de sus productores. 
+                            Esta cervecería tiene un local en donde comercializa su bebida, junto a una pequeña carta de platos, permite a los 
+                            comensales disfrutar de madrigales sabroso y llenos de historia. En este local es posible comprar cervezas de los tres tipos que 
+                            poseen: Rubia, Ámbar y Negra; junto con algunos productos de mercadeo relacionados a la marca.
+                        </p>
+                    </div>
+                    <div class="img40">
+                        <img src="img/historia1.png" alt=""/>
+                    </div>
+                </div>
+                <div class="bloque100">
+                    <div class="img40">
+                        <img src="img/historia2.png" alt=""/>
+                    </div>
+                    <div class="text60">
+                        <h3>Quienes somos</h3>
+                        <p>
+                            El dueño, Jonathan Pastenne, es quien produce la cerveza y pasa gran parte del día entre la bodega y la cocina, en donde se 
+                            fabrica la cerveza. Él es quien posee el conocimiento del proceso y lo controla, para asegurar la calidad y sabor tradicional 
+                            de sus productos.
+                            <br>
+                            En la bodega trabaja don Manuel, el padre del dueño y don Patricio, su tío. En la caja esta Su madre Luisa y sus tías en la 
+                            cocina. Como se comprende, es una empresa familiar. Los únicos que no son parte de la familia son los garzones, los cuales son 
+                            un par de jóvenes de la zona.
+                        </p>
+                    </div>
+                </div>
+                <div class="bloque100">
+                <div class="text60">
+                    <h3>Sitio de usuario registrado</h3>
+                    <p>Debes iniciar sesión para continuar</p>
+                    </div>
+                    <div class="img40">
+                        <button id="btnLogin" class="btnLogin" onclick="location.href = '#formLogin'">Login</button>
+                    </div>
+                </div>
+
+                <div class="formLogin" id="formLogin">
+                    <form>
+                        <a href="#">X</a>
+                        <div>
+                            <label>Nombre de usuario:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="usuario" id="usuario" placeholder="Usuario para acceder" required>
+                        </div>
+                        <div>
+                            <label>Contraseña:</label>
+                        </div>
+                        <div>
+                            <input type="password" name="pass" id="pass" placeholder="Ingrese contraseña" required>
+                        </div>
+                        <div>
+                            <input class="btnEnviar" type="submit" value="Enviar datos">
+                        </div>                                           
+                    </form>
+
+                </div>
+            </div>
+
+            <div id="cuerpo-elaboracion" style="display : none">
+                <h1>Proceso de elaboración</h1>
+                <div class="proceso">
+                    <div>
+                        <h3>Selección</h3>
+                        <p>
+                            Se seleccionan según receta a realizar. El tostado ofrece distintos sabores y colores.
+                        </p>                        
+                    </div>
+                    <div>
+                        <img src="img/elaboracion1.png" alt=""/>
+                    </div>
+                </div>
+                <div class="proceso">
+                    <div>
+                        <h3>Molturado</h3>
+                        <p>
+                            Consiste en triturar el grano en la medida justa para mejorar su rendimiento.
+                        </p>                        
+                    </div>
+                    <div>
+                        <img src="img/elaboracion2.png" alt=""/>
+                    </div>
+                </div>
+                <div class="proceso">
+                    <div>
+                        <h3>Macerado</h3>
+                        <p>
+                            Se deposita en agua entre 65° y 70°C durante 1 a 1.5 horas. En esta fase se obtiene el mosto de cerveza.
+                        </p>                        
+                    </div>
+                    <div>
+                        <img src="img/elaboracion3.png" alt=""/>
+                    </div>
+                </div>
+                <div class="proceso">
+                    <div>
+                        <h3>Hervido</h3>
+                        <p>
+                            El mosto se hierve 1 hora, se evaporan los compuestos indeseables, se retira espuma y se introduce distintos tipos de lúpulo.
+                        </p>                        
+                    </div>
+                    <div>
+                        <img src="img/elaboracion4.png" alt=""/>
+                    </div>
+                </div>
+                <div class="proceso">
+                    <div>
+                        <h3>Enfriado</h3>
+                        <p>
+                            Se enfría rápidamente la mezcla, hasta la temperatura adecuada según estilo de cerveza.
+                        </p>                        
+                    </div>
+                    <div>
+                        <img src="img/elaboracion5.png" alt=""/>
+                    </div>
+                </div>
+                <div class="proceso">
+                    <div>
+                        <h3>Fermentación</h3>
+                        <p>
+                            Se inocula la levadura moviendo la mezcla. Después del primer fermentado se trasvasa a un segundo fermentado. Se embarrila
+                            o embotella y se deja fermentar por tercera vez.
+                        </p>                        
+                    </div>
+                    <div>
+                        <img src="img/elaboracion6.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div id="cuerpo-productos" style="display : none">
+                <h1>Productos</h1>
+                <div>
+                        <h3>Rubia</h3>
+                        <p>
+                            Fermentación Baja. Utilizan levaduras que van al fondo de los tanques cuando llegan al final del proceso de fermentación.
+                            La fermentación se da mas lentamente a temperaturas aproximadas entre los 7ºC.
+                            Debe almacenarse por lo general durante un mes a tres meses, a temperaturas de 0°C.
+                        </p>                        
+                    </div>
+                    <div>
+                        <img src="img/producto1.png" alt=""/>
+                    </div>
+                <div>
+                        <h3>Ámbar</h3>
+                        <p>
+                            Fermentación Alta. Utilizan levaduras que van a la parte superior de los tanques cuando llegan al final del proceso de fermentación.
+                            La fermentación se da mas rápido en este tipo de cerveza, a temperaturas en torno a los 20ºC aproximadamente.
+                            Pueden servirse generalmente a los pocos días que se haya logrado la fermentación correcta.
+                        </p>                        
+                    </div>
+                    <div>
+                        <img src="img/producto2.png" alt=""/>
+                    </div>
+                <div>
+                        <h3>Negra</h3>
+                        <p>
+                            Fermentación Espontanea. Las levaduras y bacterias en ella se encargan de realizar la fermentación al ponerse en contacto con el ambiente, pero no se controlan.
+                            Por lo general se hacen solo de levaduras salvajes.
+                            No tienen mucho gas, lo que lleva a tener una cerveza con poca cantidad de espuma.
+                        </p>                        
+                    </div>
+                    <div>
+                        <img src="img/producto3.png" alt=""/>
+                    </div>
+            </div>
+            <div id="cuerpo-contacto" style="display : none">
+                <h1>
+                    Contacto
+                </h1>
+                <div class="informacion">
+                    Queremos saber de ti, completa el siguiente formulario y nos contactaremos contigo
+                </div>
+                <div><img src="img/contacto1.png" alt="" width="90"/></div>
+                <form>
+                    <div>
+                        <h3>Formulario</h3>
+                    </div>
+                    <div>
+                        <div>
+                            <label>Nombre completo</label>
+                        </div>
+                        <div>
+                            <input type="text" name="nombre" id="nombre" required> 
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label>Ciudad</label> 
+                        </div>
+                        <div>
+                            <input type="text" name="ciudad" id="ciudad" required> 
+                        </div>                    
+                    </div>                  
+                    <div>
+                        <div>
+                            <label>Teléfono</label>
+                        </div>
+                        <div>
+                            <input type="number" name="telefono" id="telefono" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label>Email</label> 
+                        </div>
+                        <div>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btnEnviar" id="btnenviar" onclick="mensaje()">Enviar</button>
+                    </div>
+                </form>
+                <div><img src="img/contacto.png" alt=""/></div>
+
+            </div>
+        </div>
+        <div id="footer">
+            <h6>Cerveceria Pastenne Compañía familiar. Todos los derechos reservados</h6>
+        </div>
+
+    </body>
+    <script src="js/Funciones.js" type="text/javascript"></script>
+</html>
